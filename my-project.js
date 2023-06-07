@@ -1,4 +1,4 @@
-console.log('It works!');
+console.log('Java file is loaded!');
 
 
 chatbox.addEventListener("keyup", postChat(Event) );
@@ -12,7 +12,6 @@ function postChat(Event){
 
 
 function myFunction(){
-
     console.log("hello");
     return 0;
 }
