@@ -8,8 +8,8 @@ function myFunction(){
     return 0;
 }
 
-function myLog(keyPressed){
-    if (keyPressed.keyCode == 13){
+function myLog(keyPreessed){
+    if (keyPressed.which == 13){
         console.log("You pressed enter inside the chatbox!")
     }
 }
