@@ -21,7 +21,11 @@
     
     <script>
         var chatBox = document.getElementById("chatbox");
-        chatbox.addEventListender("keyup", console.log("msg logged!"));
+        chatbox.addEventListender("keyup", function (event) {
+            if (event.keyCode == 13) {
+                console.log("logged!");
+            }
+        });
     </script>
 </body>
 
