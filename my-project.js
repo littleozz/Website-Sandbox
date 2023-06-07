@@ -1,10 +1,10 @@
 console.log('It works!');
 
 
-chatbox.addEventListener("Keyup", postChat (event) );
+chatbox.addEventListener("keyup", postChat(Event) );
 
-function postChat(){
-    if (event.keyCode == 13) {
+function postChat(e){
+    if (e.keyCode == 13) {
         console.log("Posted chat!")
     }
 }
