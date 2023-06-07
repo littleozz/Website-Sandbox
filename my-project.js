@@ -8,7 +8,7 @@ function myFunction(){
     return 0;
 }
 
-function myLog(keyPreessed){
+function myLog(keyPressed){
     if (keyPressed.which != 13){
         console.log("You pressed enter inside the chatbox!")
     }
