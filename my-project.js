@@ -6,7 +6,7 @@ function myTest(){
 
 
 function myFunction(){
-    console.log("hello");
+    console.log("You ran myFunction");
     return 0;
 }
 
