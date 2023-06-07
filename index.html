@@ -14,15 +14,16 @@
     <input type="text" id="chat" name="box" size="50" maxlength="45">
     
 
-    <button id="Button1" onclick="myFunction()">Click Me!</button>
-    <button id="dummy"> double click me</button>
+    <button id="Btn1" onclick="myFunction()">Click Me!</button>
+    <button id="Btn2"> double click me</button>
 
-    <script src="my-project.js"></script>
-
+    
+    
     <script>
-        document.getElementById("dummy").addEventListener("click", myFunction);
-
+        document.getElementById("Btn2").addEventListener("click", myFunction);
+        document.getElementById("chat").addEventListener("keyup", myLog(event));
     </script>
+    <script src="my-project.js"></script>
 </body>
 
 </html>
