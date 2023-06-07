@@ -6,6 +6,7 @@ chatbox.addEventListener("keyup", postChat(Event) );
 function postChat(e){
     if (e.keyCode == 13) {
         console.log("Posted chat!")
+        return 0;
     }
 }
 
