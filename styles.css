@@ -6,4 +6,9 @@ body {
 h1 {
     color:crimson;
     font-size:5.0em;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
 }
