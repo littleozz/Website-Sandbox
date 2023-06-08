@@ -1,15 +1,10 @@
 console.log('Java file is loaded!');
 
-function myTest(){
-    console.log("you double clicked me");
-}
-function myFunction(){
-    console.log("You ran myFunction");
+
+function myClick(){
+    console.log("You clicked the button!");
     return 0;
 }
 
-function myLog(keyPressed){
-    if (keyPressed.which == 13){
-        console.log("You pressed enter inside the chatbox!")
-    }
-}
+let total = 0;
+
