@@ -1,6 +1,6 @@
 console.log('Java file is loaded!');
 
-const fs = require('fs');
+var fs = require('fs');
 
 let fileString = fs.readFileSync("msglogs.txt").toString();
 fileString = fileString.replace(/13/,"14");
