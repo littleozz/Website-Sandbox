@@ -7,14 +7,19 @@
 
 <body>
     <h1>Welcome to Procrastination Central!</h1>
-    <p>Stay as long as you would like.</p>    
+    <h2>Stay as long as you would like.</h2>    
 
     <br>
     <br>
     <br>
     <br>
-    <h2>Times clicked: </h2>
-    <script>document.write(total)</script>
+    <h2 id="total-text">Times clicked: </h2>
+
+
+    <script>
+        var total = 0;
+        document.getElementById('total-text').innerHTML = "Times Clicked: " + total;
+    </script>
 
 
 
