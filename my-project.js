@@ -2,7 +2,9 @@ console.log('Java file is loaded!');
 
 const fs = require("fs");
 
-let fileString = fs.readFileSync("msglog.txt").toString();
+let fileString = fs.readFileSync("msglogs.txt").toString();
+
+
 console.log(fileString);
 
 
