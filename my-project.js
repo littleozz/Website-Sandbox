@@ -1,14 +1,12 @@
 console.log('Java file is loaded!');
 
-var fs = require('fs');
+const fs = require('fs');
 
-let fileString = fs.readFileSync("msglogs.txt").toString();
-fileString = fileString.replace(/13/,"14");
+fs.writeFile('output.txt', 'Hello World.', err => {
+    if (err) console.error(err);
+    else console.log('Data written to file successfully.');
 
-fs.writeFileSync("msglogs.txt", fileString)
-
-console.log(fileString);
-
+});
 
 
 
